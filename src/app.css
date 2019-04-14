@@ -1,0 +1,17 @@
+.metronome-wrap {
+  max-width: 350px;
+  margin: 70px auto 0;
+  padding: 30px 20px 20px;
+  background-color: #f2f2f2;
+  border: 5px solid #ebebeb;
+  border-radius: 5px;
+  text-align: center;
+}
+.rm-slider {
+  margin-top: 35px;
+  margin-bottom: 10px;
+}
+.rm-start-button {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}

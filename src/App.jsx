@@ -3,6 +3,7 @@ import Slider from 'rc-slider';
 import { AwesomeButton } from 'react-awesome-button';
 import 'rc-slider/assets/index.css';
 import 'react-awesome-button/dist/themes/theme-c137.css';
+import './app.css';
 // Import audio
 import tick from './audio/tick.wav';
 import tock from './audio/tock.wav';
@@ -26,17 +27,19 @@ class App extends Component {
     const { bpm, playing } = this.state;
     return (
       <div className="metronome-wrap">
-        <p>{bpm}</p>
+        <p>{bpm} BPM</p>
         <Slider
+          className="rm-slider"
           onChange={this.onBpmChange}
           min={1}
           max={200}
           disabled={playing}
+          // value={}
         />
         <AwesomeButton
           type="primary"
           size="medium"
-          className="start-button"
+          className="rm-start-button"
           onPress={this.onButtonClick}
         >
           {playing ? 'START' : 'STOP'}
