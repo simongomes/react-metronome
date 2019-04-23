@@ -4,6 +4,8 @@ A metronome, from ancient Greek μέτρον (métron, "measure") and νέμω (
 
 ### React Metronome is a fun app created with react. Just set your desired BPM and play 🎶 🎵 🎶
 
+### [Download](https://github.com/simongomes/react-metronome/archive/react-metronome@v1.0.zip)
+
 In the project directory, you can run:
 
 ### `npm start`
